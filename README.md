@@ -1,6 +1,16 @@
 # AutoZoom
 A program designed to make your Zoom schedule easier to follow.
 
+**Important Program Settings**
+Make sure you run the program as administrator when you need to make a new schedule!
+
+A PERMANENT FIX TO THIS ISSUE (until next release):
+1. Open the directory to which AutoZoom was installed to.
+2. Right click autozoom.exe
+3. Select "Properties"
+4. Go to the "Compatibility" tab.
+5. Select "Run this program as an administrator"
+
 **Important Zoom Settings**
 Go to Zoom Settings in the Zoom desktop application.
 Video >> Turn off my video when joining meeting.

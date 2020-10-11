@@ -1,6 +1,15 @@
 # AutoZoom
 A program designed to make your Zoom schedule easier to follow.
 
+**Important Zoom Settings**
+Go to Zoom Settings in the Zoom desktop application.
+Video >> Turn off my video when joining meeting.
+Audio >> Automatically join audio by computer when joining a meeting.
+Audio >> Mute my microphone when joining a meeting.
+
+**Important Chrome Settings**
+Make sure when a Zoom link opens, it automatically opens the Zoom application. (Click Always when you are prompted by the dialogue)
+
 **TL;DR Installation Guide** 
 
 Simply download and run the installer to install AutoZoom.

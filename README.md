@@ -11,6 +11,9 @@ A PERMANENT FIX TO THIS ISSUE (until next release):
 3. Select "Properties"
 4. Go to the "Compatibility" tab.
 5. Select "Run this program as an administrator"
+6. Press "Apply"
+
+This should fix all the issue regarding a new file not being created when you go to new schedule.
 
 **Important Zoom Settings**
 

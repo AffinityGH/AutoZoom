@@ -1,6 +1,8 @@
 # AutoZoom
 A program designed to make your Zoom schedule easier to follow.
 
+Feel free to distribute the code, but please do not claim it as your own. Please ask before using portions of my code as well.
+
 **Important Program Settings**
 
 Make sure you run the program as administrator when you need to make a new schedule!
@@ -43,4 +45,4 @@ BEFORE YOU DO ANYTHING:
 **Please submit all bug reports to the GitHub so I can address them!**
 
 Special thanks to *AceScottie* who helped me through Tkinter.
-Feel free to distribute the code, but please do not claim it as your own.
+

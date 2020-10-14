@@ -27,6 +27,8 @@ Audio >> Automatically join audio by computer when joining a meeting.
 
 Audio >> Mute my microphone when joining a meeting.
 
+*Make sure the Zoom application is ALWAYS open.*
+
 **Important Chrome Settings**
 
 Make sure when a Zoom link opens, it automatically opens the Zoom application. (Click Always when you are prompted by the dialogue)

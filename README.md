@@ -20,8 +20,11 @@ This should fix all the issue regarding a new file not being created when you go
 **Important Zoom Settings**
 
 Go to Zoom Settings in the Zoom desktop application.
+
 Video >> Turn off my video when joining meeting.
+
 Audio >> Automatically join audio by computer when joining a meeting.
+
 Audio >> Mute my microphone when joining a meeting.
 
 **Important Chrome Settings**

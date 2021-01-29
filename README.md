@@ -5,6 +5,8 @@ PLEASE READ THE IMPORTANT WEB BROWSER AND ZOOM SETTINGS TO ENABLE!
 
 Feel free to distribute the code, but please do not claim it as your own. Please ask before using portions of my code as well.
 
+Check the releases tab to see new features and updates.
+
 # TL;DR Installation Guide
 
 1. Download Python file.

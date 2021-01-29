@@ -10,9 +10,13 @@ Feel free to distribute the code, but please do not claim it as your own. Please
 1. Download Python file.
 2. Make sure you have the latest version of Python.
 3. Pip install the following packages:
+
   a. webbrowser
+  
   b. pyautogui
+  
   c. configparser
+  
 4. Double click on the **autozoom.pyw** file.
 5. Enjoy!
 
@@ -37,6 +41,7 @@ Make sure when a Zoom link opens, it automatically opens the Zoom application. (
 In your Documents folder, there will be a folder called AutoZoom in which you can find all your schedules. You can change your schedules by editing the text file there. 
 
 The schedule is formatted as such:
+
   link-password-time (time is in 24 HR 00:00 form)
 
 **Update Existing Installation** 

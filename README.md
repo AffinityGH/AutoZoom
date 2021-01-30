@@ -13,11 +13,9 @@ Check the releases tab to see new features and updates.
 2. Make sure you have the latest version of Python.
 3. Pip install the following packages:
 
-.......   a. webbrowser
+.......   a. pyautogui
 
-.......   b. pyautogui
-
-.......   c. configparser
+.......   b. configparser
   
 4. Double click on the **autozoom.pyw** file.
 5. Enjoy!

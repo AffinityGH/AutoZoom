@@ -242,7 +242,7 @@ class TKGUI:
     #gets the courses from the specified schedule name
     def get_courses(self, scheduleName):
         wrapper = []
-        fp = open(autozoom_path + scheduleName, 'r') #gets the text file with the schedule contents
+        fp = open(scheduleName, 'r') #gets the text file with the schedule contents (don't add autozoom_path here since it's already included)
         try:
             courses = fp.readlines()
             for course in courses:
@@ -260,7 +260,7 @@ class TKGUI:
     def save(self, file_name):
         with open(autozoom_path + file_name + '.txt', 'w') as file_object:
             file_object.close()
-        self.path = autozoom_path+ file_name + '.txt'
+        self.path = autozoom_path + file_name + '.txt'
         self.newEntryUser()
 
     #finds the specified text file we are looking for
@@ -271,7 +271,7 @@ class TKGUI:
             self.fileFound()
             self.doneExisting()
             self.path = autozoom_path + file_name
-            self.protocolThread = Thread(target=self.protocol,args=(file_name,))
+            self.protocolThread = Thread(target=self.protocol,args=(self.path,))
             self.protocolThread.daemon = True
             self.protocolThread.start()
         except FileNotFoundError as err:
@@ -286,7 +286,7 @@ class TKGUI:
         self.entry2Var.set('None')
         self.entry3.delete(0, 'end')
         fullText = piece1 + "-" + piece2 + "-" + piece3
-        doc = open(autozoom_path + self.path, "a")
+        doc = open(self.path, "a")
         if(os.path.getsize(self.path) > 0):
             doc.write("\n"+fullText)
         else:
